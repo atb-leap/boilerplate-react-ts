@@ -23,11 +23,15 @@
         "esSpecCompliant": true
       }
     ],
-    "arrow-parens": [true]
+    "arrow-parens": [true],
+    "import-name": [false]
   },
   "jsRules": {
     "max-line-length": {
       "options": [120]
     }
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
   }
 }
