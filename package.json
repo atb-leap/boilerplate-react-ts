@@ -6,6 +6,7 @@
     "@types/node": "12.6.4",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.4",
+    "http-server": "^0.11.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "http-server -p 8080 ./build"
   },
   "eslintConfig": {
     "extends": "react-app"
